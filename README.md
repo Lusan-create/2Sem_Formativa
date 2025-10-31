@@ -1,5 +1,15 @@
 FORMATIVA BACKEND + FRONTEND
 
+Comandos para instalar as bibliotecas do projeto
+    npm install -- Instala as bibliotecas para o funcionamento do projeto
+
+    npm install vue-router@4 -- Permite navegar entre as páginas
+
+    npm run dev -- inicia um servidor local para o projeto.
+
+    npm install tailwindcss -- Instala a biblioteca do tailwind
+
+
 LOG 1 - 04/09/2025
 
 Criando o design no figma.

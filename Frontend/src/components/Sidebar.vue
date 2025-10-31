@@ -4,12 +4,15 @@ export default{
 }
 </script>
 
+<!-- HTML -->
 <template>
     <Sidebar>
-
+        <P>O kleber não é tão bonito assim</P>
     </Sidebar>
 </template>
 
+
+<!-- CSS -->
 <style>
 
 </style>
