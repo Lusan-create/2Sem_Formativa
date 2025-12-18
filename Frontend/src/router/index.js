@@ -12,6 +12,14 @@ const routes = [
     {path: '/menu', 
      name: "Menu",   
     component: () => import("../views/Menu.vue"),
+    },
+    {path:'/agenda',
+     name: 'Agenda',
+     component: () => import("../views/Agendamento.vue"),
+    },
+    {   path: '/Cadastro',
+        name: 'Cadastro',
+        component: () => import("../views/Cadastro.vue"),
     }
 ]
 

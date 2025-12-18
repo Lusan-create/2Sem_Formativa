@@ -6,17 +6,26 @@
             <form action="" class="self-center flex flex-col gap-[2dvh]">
                 <div class="flex flex-col">
                     <label for="email" class="text-[1.5dvw]">Email</label>
-                    <input type="text" id="email" placeholder="Email..." class="border-black border-solid border-[0.3dvh] rounded-md h-[7dvh] w-[35dvw] text-[1.5dvw] pl-[0.5dvw] bg-white
-                    focus:outline-black focus:outline-offset-1.95 focus:outline-[0.1]">
+                    <input type="text" 
+                    id="email" 
+                    placeholder="Email..." 
+                    class="border-black border-solid border-[0.3dvh] rounded-md h-[7dvh] w-[35dvw] text-[1.5dvw] pl-[0.5dvw] bg-white
+                    focus:outline-black focus:outline-offset-1.95 focus:outline-[0.1]"
+                    >
                 </div>
                 
                 <div class="flex flex-col">
                     <label for="senha" class="text-[1.5dvw]">Senha</label>
-                    <input type="text" name="Senha" id="senha" placeholder="Senha..." class="border-black border-solid border-[0.3dvh] rounded-md h-[7dvh] w-[35dvw] text-[1.5dvw] pl-[0.5dvw] bg-white
-                    focus:outline-black focus:outline-offset-1.95 focus:outline-[0.1]">
+                    <input type="text" 
+                    name="Senha" 
+                    id="senha" 
+                    placeholder="Senha..." 
+                    class="border-black border-solid border-[0.3dvh] rounded-md h-[7dvh] w-[35dvw] text-[1.5dvw] pl-[0.5dvw] bg-white
+                    focus:outline-black focus:outline-offset-1.95 focus:outline-[0.1]"
+                    ">
                 </div>
                 
-                <button class="h-[6dvh] w-[15dvw] border-black border-solid border-[0.3dvh] rounded-md justify-self-center self-center mt-[3dvh]
+                <button @click="store.login" class="h-[6dvh] w-[15dvw] border-black border-solid border-[0.3dvh] rounded-md justify-self-center self-center mt-[3dvh]
                                bg-black text-white text-[2.7dvh] hover:bg-white hover:text-black active:bg-cyan-100">LOGIN</button>
                 
             </form>
@@ -25,6 +34,12 @@
 </template>
 
 <script>
+//Imports
+import { onMounted } from 'vue';
+import {useUserStore} from "../stores/userStore"
+
+//Inicializando o store
+//const store = useUserStore();
 
 </script>
 

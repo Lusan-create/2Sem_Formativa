@@ -33,32 +33,5 @@
 </template>
 
 <style>
-    #infos{
 
-        grid-template-rows: 1fr;
-        grid-template-columns: repeat(1fr, 2);
-
-        grid-template-areas:    
-        'box01 box02';
-    }
-
-    #box01{
-        grid-area: box01;
-        width: 100%;
-        height:100%;
-        justify-content: center;
-
-    }
-
-    #box02{
-        grid-area: box02;
-        width:  100%;
-        height: 100%;
-        justify-content: center;
-    }
-
-    #grafico:hover{
-        background-color: lightgray;
-        border-color: lightgray;
-    }
 </style>
